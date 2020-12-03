@@ -1,0 +1,42 @@
+@media (max-width: 1440px){
+    .container{
+        max-width: 1170px;
+    }
+}
+@media (max-width: 1170px){
+    .container{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .user-block__user{
+        display: none !important;
+    }
+
+    .nav-bar__user-block{
+        max-width: 60px;
+    }
+
+    .user-block__media-user{
+        display: block !important;
+        float: right; /* знаю, что не лучший метод, но по другому не могу придумать  */
+
+        box-sizing: border-box;
+        max-width: 60px;
+
+        border: none !important;
+    }
+
+    .nav-block{
+        padding-bottom: 0;
+    }
+
+    .media-nav-bar__search{
+        display: block !important;
+    }
+
+    .nav-bar__search{
+        display: none;
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "partners": [
+       {
+         "companyName"    : "Henkel",
+         "companyPicture" : "img/card_henkel.png"
+       },
+       {
+        "companyName"    : "JohnDeere",
+        "companyPicture" : "img/card_johndeere.png"
+      },
+      {
+        "companyName"    : "McDonalds",
+        "companyPicture" : "img/card_mcdonalds.png"
+      },
+      {
+        "companyName"    : "Ikea",
+        "companyPicture" : "img/card_ikea.png"
+      },
+      {
+        "companyName"    : "Reebook",
+        "companyPicture" : "img/card_reebook.png"
+      },
+      {
+        "companyName"    : "Nike",
+        "companyPicture" : "img/card_nike.png"
+      },
+      {
+        "companyName"    : "Caterpillar",
+        "companyPicture" : "img/card_caterpillar.png"
+      }
+       
+    ]
+ }

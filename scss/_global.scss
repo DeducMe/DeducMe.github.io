@@ -1,0 +1,90 @@
+$main_color: #fff;
+$font_weight_regular: 400;
+$font_weight_medium: 500;
+$font_size_regular: 14px;
+$font_size_header: 36px;
+
+/* < Global styles */
+
+.visually-hidden{
+    position: absolute !important;
+
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);/*IE6,IE7*/
+
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+
+    border: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-weight: $font_weight_medium;
+
+    margin: 0;
+}
+
+*{
+    font-family: 'Roboto';
+    font-size: $font_size_regular;
+    font-weight: $font_weight_regular;
+    line-height: 1.4;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    outline: none;
+}
+
+body{
+    overflow-x: hidden;
+
+    background-color: $main_color;
+}
+
+a{
+    position: relative;
+
+    cursor: pointer;
+    text-decoration: none;
+
+    color: #000;
+}
+
+p{
+    cursor: default;
+}
+
+button{
+    cursor: pointer;
+
+    border: none;
+    background: none;
+}
+
+ul{
+    list-style: none;
+}
+
+input,
+textarea{
+    border: none;
+    background-color: inherit;
+}
+
+h1{
+    font-size: 36px;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+/* Global styles /> */
